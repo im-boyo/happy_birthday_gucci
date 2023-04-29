@@ -1,0 +1,114 @@
+:root {
+    --dark-green: #264653;
+    --dark-blue: #005AE0;
+    --cyan: #33C3E4;
+    --orange: #FFA10A;
+    --hot-orange: #FFA10A;
+    --red: #F50062;
+    --purple: #53175E;
+    --teal: #0AD88E;
+}
+
+*{
+    margin: 0;
+}
+
+@font-face {
+    src: url(../polices/Billy_2.0.ttf) format("truetype");
+    font-family: "Billy";
+}
+
+@font-face {
+    src: url(../polices/LemonJuice.otf) format("opentype");
+    font-family: "LemonJuice";
+}
+
+body {
+    overflow-x: hidden;
+}
+
+p {
+    font-family: "Billy";
+}
+
+h1 {
+    font-family: "LemonJuice";
+    text-align: end;
+    padding-top: 5vw;
+    padding-right: 6vw;
+    font-size: 10vw;
+    color: white;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/img_arriere_plan/intro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.description {
+    position: absolute;
+    font-size: 45px;
+    color: white;
+    left: 0vw;
+    text-align: right;
+    padding: 2rem;
+    bottom: 0;
+}
+
+.scroll-down {
+    position: absolute;
+    width: 20vw;
+    left: 41vw;
+    top: 35vh;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#chapitre-1 {
+    background-image: url(../img/background.png);
+}
+
+header {
+    background-image: url(../img/background.png);
+}
+
+.xu {
+    position: absolute;
+    height: 100vh;
+    right: 0vw;
+}
+
+.capefur {
+    position: absolute;
+    height: 100vh;
+    right: 0vw;
+}
+
+.capered {
+    position: absolute;
+    height: 100vh;
+    transform-origin: 50% 70%;
+    right: 0vw;
+}
+
+.arm {
+    position: absolute;
+    height: 100vh;
+    transform-origin: 65% 70%;
+    right: 0vw;
+}
+
+.hbd {
+    position: absolute;
+    color: white;
+    font-size: 13vh;
+    left: 5vw;
+    top: 5vh;
+}
